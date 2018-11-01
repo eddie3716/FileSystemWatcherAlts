@@ -156,7 +156,7 @@ namespace FileSystemWatcherAlts.Wrappers
             // Swallowing any exceptions that might occure when trying to get a clone of the current watcher
             CancellationToken cToken = _refreshTokenSource.Token;
             Policy.Handle<Exception>()
-                  .RetryForever((ex, con) => Thread.Sleep(RefreshAttempInterval))
+                  .RetryForever(ex => Thread.Sleep(RefreshAttempInterval))
                   .Execute(() =>
                   {
                       // If the refreshment is cancelled, place a fake as the new watcher and return.

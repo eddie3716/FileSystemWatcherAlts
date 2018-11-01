@@ -1,9 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWatcherAlts", "FileSystemWatcherAlts\FileSystemWatcherAlts.csproj", "{195F032D-DA21-40A0-ABFF-6FC4887A6839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemWatcherAlts", "FileSystemWatcherAlts\FileSystemWatcherAlts.csproj", "{195F032D-DA21-40A0-ABFF-6FC4887A6839}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9AABE71B-4DCC-4C83-895E-7AFAF9B8B0C3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		AltComparison.md = AltComparison.md
+		BT.ThirdParty.FileSystemWatcherAlts.nuspec = BT.ThirdParty.FileSystemWatcherAlts.nuspec
+		build-ext.cake = build-ext.cake
+		build.cake = build.cake
+		build.ps1 = build.ps1
+		nuget.config = nuget.config
+		README.md = README.md
+		version.txt = version.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FDFB64D-D7F7-4622-B1C7-A27D261CA51C}
 	EndGlobalSection
 EndGlobal

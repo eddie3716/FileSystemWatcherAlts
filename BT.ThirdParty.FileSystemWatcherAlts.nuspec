@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>BT.ThirdParty.FileSystemWatcherAlts</id>
+		<version>0.0.0</version>
+		<authors>https://github.com/Wootness</authors>
+		<owners>https://github.com/Wootness</owners>
+		<licenseUrl>https://github.com/eddie3716/FileSystemWatcherAlts</licenseUrl>
+		<projectUrl>https://github.com/eddie3716/FileSystemWatcherAlts</projectUrl>
+		<iconUrl>http://www.vuebill.com/img/myicon.ico</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>https://github.com/eddie3716/FileSystemWatcherAlts</description>
+		<releaseNotes>
+		</releaseNotes>
+		<copyright>Copyright 2018</copyright>
+		<tags>
+		</tags>
+		<dependencies>
+			<group targetFramework="net461">
+				<dependency id="Polly" version="6.1.0" />
+			</group>
+			<group targetFramework="net47">
+				<dependency id="Polly" version="6.1.0" />
+			</group>
+			<group targetFramework="net45">
+				<dependency id="Polly" version="6.1.0" />
+			</group>
+		</dependencies>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System" />
+			<frameworkAssembly assemblyName="System.Core" />
+			<frameworkAssembly assemblyName="System.Data" />
+			<frameworkAssembly assemblyName="System.Drawing" />
+			<frameworkAssembly assemblyName="System.IO.Compression.FileSystem" />
+			<frameworkAssembly assemblyName="System.Numerics" />
+			<frameworkAssembly assemblyName="System.Runtime.Serialization" />
+			<frameworkAssembly assemblyName="System.Xml" />
+			<frameworkAssembly assemblyName="System.Xml.Linq" />
+		</frameworkAssemblies>
+	</metadata>
+	<files>
+		<file src="Net461\FileSystemWatcherAlts.dll" target="lib\net461" />
+		<file src="Net461\FileSystemWatcherAlts.pdb" target="lib\net461" />
+		<file src="Net47\FileSystemWatcherAlts.dll" target="lib\net47" />
+		<file src="Net47\FileSystemWatcherAlts.pdb" target="lib\net47" />
+		<file src="Net45\FileSystemWatcherAlts.dll" target="lib\net45" />
+		<file src="Net45\FileSystemWatcherAlts.pdb" target="lib\net45" />
+	</files>
+</package>
